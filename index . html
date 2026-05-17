@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ubash Project - Team</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 20px; }
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; }
+    .team-member { margin-bottom: 15px; }
+    .role { color: #16a085; font-weight: bold; }
+    .contact { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Ubash Project</h1>
+  <h2>Our Team</h2>
+
+  <div class="team-member">
+    <span class="role">Abdullah</span> – Founder & Project Lead
+  </div>
+  <div class="team-member">
+    <span class="role">Moaz</span> – Blockchain Developer
+  </div>
+  <div class="team-member">
+    <span class="role">Saif</span> – Marketing & Community Manager
+  </div>
+
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: ubash.project@gmail.com</p>
+  </div>
+</body>
+</html>
