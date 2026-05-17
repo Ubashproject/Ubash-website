@@ -2,33 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ubash Project - Team</title>
+  <title>Ubash Project - Official Website</title>
   <style>
-    body { font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 20px; }
-    h1 { color: #2c3e50; }
-    h2 { color: #34495e; }
-    .team-member { margin-bottom: 15px; }
-    .role { color: #16a085; font-weight: bold; }
-    .contact { margin-top: 20px; }
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+    header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    section { padding: 40px; text-align: center; }
+    .team-member { background: white; margin: 15px auto; padding: 20px; width: 60%; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .name { font-size: 22px; font-weight: bold; color: #2c3e50; }
+    .role { font-size: 18px; color: #16a085; margin-top: 5px; }
+    .desc { font-size: 15px; color: #555; margin-top: 10px; }
+    footer { background-color: #2c3e50; color: white; text-align: center; padding: 15px; margin-top: 30px; }
   </style>
 </head>
 <body>
-  <h1>Welcome to Ubash Project</h1>
-  <h2>Our Team</h2>
+  <header>
+    <h1>Welcome to Ubash Project</h1>
+    <p>The official website of Ubash Token (AMU)</p>
+  </header>
 
-  <div class="team-member">
-    <span class="role">Abdullah</span> – Founder & Project Lead
-  </div>
-  <div class="team-member">
-    <span class="role">Moaz</span> – Blockchain Developer
-  </div>
-  <div class="team-member">
-    <span class="role">Saif</span> – Marketing & Community Manager
-  </div>
+  <section>
+    <h2>Our Team</h2>
 
-  <div class="contact">
-    <h2>Contact Us</h2>
-    <p>Email: ubash.project@gmail.com</p>
-  </div>
+    <div class="team-member">
+      <div class="name">Abdullah</div>
+      <div class="role">Founder & Project Lead</div>
+      <div class="desc">Leads the vision, strategy, and ensures credibility for investors and partners.</div>
+    </div>
+
+    <div class="team-member">
+      <div class="name">Moaz</div>
+      <div class="role">Blockchain Developer & Smart Contract Engineer</div>
+      <div class="desc">Responsible for coding, smart contract deployment, and technical security of the token.</div>
+    </div>
+
+    <div class="team-member">
+      <div class="name">Saif</div>
+      <div class="role">Marketing & Community Manager</div>
+      <div class="desc">Builds community, manages campaigns, and drives engagement across social platforms.</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Ubash Project - All Rights Reserved</p>
+  </footer>
 </body>
 </html>
